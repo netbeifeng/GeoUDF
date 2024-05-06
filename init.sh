@@ -15,6 +15,7 @@ pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.co
 pip install open3d
 pip install point-cloud-utils
 pip install trimesh
-
+pip install numba
+pip install networkx
 cd pointnet2_ops_lib   
 python setup.py install
